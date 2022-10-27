@@ -7,6 +7,7 @@
 //
 
 #import "TCViewController.h"
+#import <UIViewController+ImagePicker.h>
 
 @interface TCViewController ()
 

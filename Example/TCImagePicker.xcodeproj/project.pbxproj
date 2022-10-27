@@ -39,8 +39,8 @@
 /* Begin PBXFileReference section */
 		092B7DF2E38B8E60CB20D81C /* Pods-TCImagePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCImagePicker_Example.release.xcconfig"; path = "Target Support Files/Pods-TCImagePicker_Example/Pods-TCImagePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		106D567A4B76C029BDD00400 /* Pods-TCImagePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCImagePicker_Tests.release.xcconfig"; path = "Target Support Files/Pods-TCImagePicker_Tests/Pods-TCImagePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1DC3F917893E0926BA3326A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		44D6AFE6CF9CB7914749EFF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1DC3F917893E0926BA3326A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		44D6AFE6CF9CB7914749EFF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TCImagePicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCImagePicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		D04CCC132BAD0FD4D00F463E /* Pods_TCImagePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCImagePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFFE8051801192E102E13D79 /* Pods-TCImagePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCImagePicker_Example.debug.xcconfig"; path = "Target Support Files/Pods-TCImagePicker_Example/Pods-TCImagePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E6A9DCAC1495C5C75A685DA1 /* Pods_TCImagePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCImagePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F97201DB578CBD0A7605BF71 /* TCImagePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TCImagePicker.podspec; path = ../TCImagePicker.podspec; sourceTree = "<group>"; };
+		F97201DB578CBD0A7605BF71 /* TCImagePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TCImagePicker.podspec; path = ../TCImagePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				A860989E195A7D87B18B85F9 /* Pods-TCImagePicker_Tests.debug.xcconfig */,
 				106D567A4B76C029BDD00400 /* Pods-TCImagePicker_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

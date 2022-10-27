@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TCImagePicker'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of TCImagePicker.'
+  s.version          = '1.0.0'
+  s.summary          = 'iOS 一行代码实现调用系统相机和相册获取图片,简书地址：https://www.jianshu.com/p/7f2d578b346c'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

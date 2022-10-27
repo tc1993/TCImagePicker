@@ -1,0 +1,22 @@
+{
+  "name": "TCImagePicker",
+  "version": "0.1.0",
+  "summary": "A short description of TCImagePicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tc1993/TCImagePicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tc1993": "873520982@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/tc1993/TCImagePicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TCImagePicker/Classes/**/*"
+}

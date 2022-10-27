@@ -1,0 +1,16 @@
+PODS:
+  - TCImagePicker (0.1.0)
+
+DEPENDENCIES:
+  - TCImagePicker (from `../`)
+
+EXTERNAL SOURCES:
+  TCImagePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TCImagePicker: 1696797bada2b3e661fbd940d9f9c4e08b7e6e81
+
+PODFILE CHECKSUM: b07c48f099ab34817cd48239870bb6f20173eef0
+
+COCOAPODS: 1.11.3
